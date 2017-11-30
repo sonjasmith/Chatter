@@ -51,18 +51,18 @@ namespace Chatter
             //    clientSecret: "");
 
             //app.UseTwitterAuthentication(
-            //   consumerKey: "",
-            //   consumerSecret: "");
+            //   consumerKey: "T7AotyVBcIOJlttXlXymnxAMK",
+            //   consumerSecret: "tgSCN2alQy8IXYepxp0u7Uy6XSYx9a1hlQ2A2IPyamEYSGRCy2");
 
             //app.UseFacebookAuthentication(
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "583043331857-tlf6r3v6d797o5ml3qoocg9rvvv4t1l0.apps.googleusercontent.com",
+                ClientSecret = "q-lfQrFck-QeYiI4tertP2jW"
+            });
         }
     }
 }
